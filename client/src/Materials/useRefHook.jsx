@@ -10,7 +10,7 @@ it will not re-render the component.
 --> when any updates or state changing, if we don't want to re-render the whole component again, 
 we can use "useRef" hook, it will not re-render the component when state changes.
 
-
+--> count.current is nothing but to accessing the element, we are using 'count.current'
 */
 
 import { useState, useEffect, useRef } from "react"
