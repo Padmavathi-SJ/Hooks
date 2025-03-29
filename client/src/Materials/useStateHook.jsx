@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-function App() {
+function useStateHook() {
 
   const [color, setColor] = useState("Red");
   
@@ -17,4 +17,8 @@ const changeColor = () => {
   );
 }
 
-export default App;
+export default useStateHook;
+
+
+//useState:
+// to update the existing values and show in frontend also the updated values we can sue useSate
